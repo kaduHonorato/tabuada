@@ -1,0 +1,209 @@
+body
+{
+margin:0 auto;
+padding:0;
+width:80%;
+background:#101010;
+font-family:sans-serif;
+}
+
+#barraControles
+{
+background:rgba(24,59,160,0.6);
+color:#fff;
+
+}
+
+#barraControles div
+{
+display:inline
+}
+
+#caixaOperacao 
+{
+width:400px;
+height:150px;
+text-align:center;
+font-size:25px;
+padding-top:50px;
+box-sizing:border-box;
+background:#fff;
+}
+
+#caixaOperacao div
+{
+width:80%;
+margin:0 auto;
+
+}
+
+
+
+
+#listaNumeros
+{
+list-style:none;
+margin:0;
+padding:0;
+color:#fff;
+}
+
+#listaNumeros label
+{
+background:rgba(24,59,160,0.6);
+display:block;
+padding:5px;
+margin-bottom:3px;
+}
+
+#listaNumeros label:hover
+{
+background:rgba(24,59,160,0.8);
+
+}
+
+#caixaBotoes
+{
+margin-top:5px;
+width:400px;
+
+text-align:center;
+}
+
+.customBt1
+{
+width:48.5%;
+box-sizing:border-box;
+
+}
+
+
+#operacao
+{
+width:55%;
+float:left;
+text-align:right;
+}
+
+#resultado
+{
+width:45%;
+float:left;
+text-align:left;
+box-sizing:border-box;
+padding-left:15px;
+}
+
+
+/*
+
+CAIXAS
+
+*/
+
+.caixa
+{
+float:left;
+margin:.5%;
+box-sizing:border-box;
+
+padding:5px;
+}
+
+.caixa1
+{
+width:24%;
+}
+
+.caixa2
+{
+width:49%;
+}
+
+.caixa3
+{
+width:74%;
+}
+
+.caixa4
+{
+width:99%;
+}
+
+
+
+@media screen and (max-width:1250px)
+{
+
+body
+{
+width:95%;
+
+}
+
+}
+
+
+
+@media screen and (max-width:1000px)
+{
+
+
+
+    .caixa
+    {
+     text-align:center;   
+
+    }
+
+    .caixa2
+    {
+    width:99%;
+ 
+    }    
+
+    .caixa1
+    {
+    width:99%;
+    }
+
+    .caixa3
+    {
+    width:99%;
+ 
+    } 
+
+    #caixaOperacao
+    {
+    width:100%;
+   
+    }
+    
+    #caixaBotoes 
+    {
+   
+     width:100%;
+    }
+
+}
+
+
+@media screen and (max-width:600px)
+{
+
+label
+{
+display:block;
+margin:3px 0;
+}
+
+.customBt1
+{
+width:100%;
+margin:5px 0;
+padding:10px 0;
+}
+
+
+}
+

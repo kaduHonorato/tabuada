@@ -1,0 +1,82 @@
+<!Doctype html>
+<html lang = "pt-br">
+<head>
+    <title>Tabuada</title>
+    <meta charset = "UTF-8" />
+    <link rel = "stylesheet" type = "text/css" href = "_css/tabuada.css" />
+</head>
+
+<body>
+
+<div id = "container" class = "caixa caixa4">
+
+
+<div id = "barraControles" class = "caixa caixa4">
+
+    <div class = "caixa caixa2">  
+        <h1 class = "customT1">Modo de estudo</h1>  
+        <label>
+            <input type = "radio" value = "1" name = "modoColunas" />Uma Coluna por vez 
+        </label>
+
+        <label>
+            <input type = "radio" value = "0" name = "modoColunas" />Múltiplas Colunas por vez.  
+        </label>
+    </div>
+
+    <div class = "caixa caixa1">
+        <h1 class = "customT1">Tabuadas</h1>  
+        <label>
+            <input type = "checkbox" value = "0" name = "tabuadaSel" />Multiplicação 
+        </label>
+
+        <label>
+            <input type = "checkbox" value = "1" name = "tabuadaSel" />Divisão   
+        </label>
+    </div>
+
+
+    <div class = "caixa caixa1">
+        <h1 class = "customT1">Velocidade</h1>
+        <input id = "controlaVel" type = "range" min = ".5" max = "3" value = "1.5" step = ".5" />  
+    </div>
+
+</div>
+<div id = "caixaColunas" class = "caixa caixa1">
+
+    <ul id = "listaNumeros">
+        <li><label><input type = "radio" name = "numeroTab" value = "1">1</label></li>
+        <li><label><input type = "radio" name = "numeroTab" value = "2">2</label></li>
+        <li><label><input type = "radio" name = "numeroTab" value = "3">3</label></li>
+        <li><label><input type = "radio" name = "numeroTab" value = "4">4</label></li>
+        <li><label><input type = "radio" name = "numeroTab" value = "5">5</label></li>
+        <li><label><input type = "radio" name = "numeroTab" value = "6">6</label></li>
+        <li><label><input type = "radio" name = "numeroTab" value = "7">7</label></li>
+        <li><label><input type = "radio" name = "numeroTab" value = "8">8</label></li>
+        <li><label><input type = "radio" name = "numeroTab" value = "9">9</label></li>
+        <li><label><input type = "radio" name = "numeroTab" value = "10">10</label></li>
+    </ul>
+</div>
+<div class = "caixa caixa3">
+    <div id = "caixaOperacao">
+        <div>
+        <span id = "operacao"></span>
+        <span id = "resultado"></span>
+        </div>   
+
+    </div>
+    
+    <div id = "caixaBotoes">        
+    <button id = "btMostraEscondeResultado" class = "customBt1" ></button>
+    <button id = "btNovaOperacao" class = "customBt1">Próxima Operação</button>
+    </div>    
+
+</div>
+
+
+</div>
+
+<script src = "_javascript/funcoesPadrao.js"></script>
+<script src = "_javascript/tabuada.js"></script>
+</body>
+</html>
